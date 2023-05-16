@@ -18,7 +18,9 @@ namespace BnbProject.Data
     {
 
         private string ConnectionString =
-        "Server=localhost;Database=Bnb;User Id=sa;Password=L'audace1!";
+        "Server=localhost;Database=Bnb;User Id=**;Password=**";
+
+        //**Your User Id and Password here
 
         public List<Listing> GetListings()
         {
